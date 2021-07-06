@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 50px
 }
+h2{
+    font-size: 40px;
+}
 .midnightblue-color{
     color: midnightblue;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -34,4 +37,30 @@ section{
 .attack-titan{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
+}
+.character{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.characters-item{
+width: 40%;
+margin-left: 5%;
+margin-right: 5%;
+padding-left: 20px;
+border-radius: 10px;
+box-shadow: 10px 10px 40px gray;
+}
+#nami-san{
+    border-left: 7px solid;
+border-image: linear-gradient( blue cyan)30;
+border-image-slice: 1;
+}
+#mikasa{
+    border-left: 7px solid;
+    border-image: linear-gradient(red orange)30;
+    border-image-slice: 1;
+}
+footer p {
+    text-align: center;   
 }
