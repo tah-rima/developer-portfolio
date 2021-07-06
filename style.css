@@ -53,12 +53,12 @@ box-shadow: 10px 10px 40px gray;
 }
 #nami-san{
     border-left: 7px solid;
-border-image: linear-gradient( blue cyan)30;
+border-image: linear-gradient( rgb(27, 27, 73), rgb(88, 161, 161));
 border-image-slice: 1;
 }
 #mikasa{
     border-left: 7px solid;
-    border-image: linear-gradient(red orange)30;
+    border-image: linear-gradient( rgb(165, 70, 70), rgb(190, 152, 81));
     border-image-slice: 1;
 }
 footer p {
