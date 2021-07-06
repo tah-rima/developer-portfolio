@@ -9,7 +9,8 @@ h1{
     color: midnightblue;
 }
 section{
-    display: flex
+    display: flex;
+    margin-bottom: 100px;
 }
 .half-width{
     width: 50%;
@@ -27,6 +28,10 @@ section{
     border-radius: 20px;
 }
 .top-bannner{
-    background-image: url(/images/top-banner.png);
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.attack-titan{
+    background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
 }
